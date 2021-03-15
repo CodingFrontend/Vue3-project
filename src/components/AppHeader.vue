@@ -9,6 +9,12 @@
       class="mx-2"
       >{{ item.title }}</router-link
     >
+    <button
+      class="border px-2 mx-1 cursor-pointer rounded"
+      @click="$emit('open-login-modal')"
+    >
+      Login
+    </button>
   </nav>
 </template>
 
@@ -21,6 +27,7 @@ export default {
         { title: "Dc Heroes", to: "/dc-heroes" },
         { title: "Calendar", to: "/calendar" },
         { title: "Markdown", to: "/markdown" },
+        { title: "Slider", to: "/slider" },
       ],
     };
   },

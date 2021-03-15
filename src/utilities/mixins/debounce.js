@@ -1,5 +1,5 @@
 export default {
-	dat() {
+	data() {
 		return {
 			timeout: "",
 		}
