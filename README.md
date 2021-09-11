@@ -1,3 +1,5 @@
+Учебный проект на Vue.js
+
 # vue3
 
 ## Project setup
