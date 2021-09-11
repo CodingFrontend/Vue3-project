@@ -7,7 +7,7 @@ module.exports = {
 			// entry for the page
 			entry: 'src/pages/home/main.js',
 			template: 'index.html',
-			title: 'To-do',
+			title: 'VUE3-projects',
 			chunks: ['chunk-vendors', 'chunk-common', 'index']
 		}
 	}
